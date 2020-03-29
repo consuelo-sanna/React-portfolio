@@ -6,7 +6,7 @@ import Menu from "@material-ui/core/Menu";
 import { menuList } from "../components/menuList";
 
 const useStyles = makeStyles(theme => ({
-  test: {
+  container: {
     display: "flex",
     justifyContent: "flex-end",
     marginRight: "0",
@@ -17,7 +17,7 @@ const useStyles = makeStyles(theme => ({
 const StyledMenu = withStyles({
   paper: {
     border: "1px solid #d3d4d5",
-    backgroundColor: "transparent"
+    background: "transparent"
   }
 })(props => (
   <Menu
@@ -51,7 +51,7 @@ function NavBar() {
   };
 
   return (
-    <Container component="main" className={classes.test}>
+    <Container component="main" className={classes.container}>
       <Burger
         anchorEl={anchorEl}
         keepMounted

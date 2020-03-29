@@ -12,6 +12,16 @@ import { purple } from "@material-ui/core/colors";
 
 const StyledMenuItem = withStyles(theme => ({
   root: {
+    "&:focus": {
+      backgroundColor: theme.palette.common.white,
+      "& .MuiListItemIcon-root, & .MuiListItemText-primary": {
+        color: theme.palette.common.white
+      }
+    },
+    "&:hover": {
+      backgroundColor: "white",
+      opacity: 0.8
+    },
     paddingLeft: 0,
     paddingRight: 0,
     display: "flex"
