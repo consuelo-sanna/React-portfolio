@@ -33,7 +33,7 @@ const StyledMenuItem = withStyles(theme => ({
 const WhiteOnPurpleTooltip = withStyles({
   tooltip: {
     color: "white",
-    fontSize: "1em",
+    fontSize: "1.8em",
     backgroundColor: "purple"
   }
 })(Tooltip);
@@ -49,7 +49,7 @@ export const menuList = (
       >
         <StyledMenuItem>
           <ListItemIcon style={{ justifyContent: "center" }}>
-            <HomeIcon style={{ color: purple[700] }} />
+            <HomeIcon style={{ color: purple[700] }} fontSize="large" />
           </ListItemIcon>
         </StyledMenuItem>
       </WhiteOnPurpleTooltip>
@@ -63,7 +63,10 @@ export const menuList = (
       >
         <StyledMenuItem>
           <ListItemIcon style={{ justifyContent: "center" }}>
-            <BusinessCenterIcon style={{ color: purple[700] }} />
+            <BusinessCenterIcon
+              style={{ color: purple[700] }}
+              fontSize="large"
+            />
           </ListItemIcon>
         </StyledMenuItem>
       </WhiteOnPurpleTooltip>
@@ -77,7 +80,7 @@ export const menuList = (
       >
         <StyledMenuItem>
           <ListItemIcon style={{ justifyContent: "center" }}>
-            <InfoIcon style={{ color: purple[700] }} />
+            <InfoIcon style={{ color: purple[700] }} fontSize="large" />
           </ListItemIcon>
         </StyledMenuItem>
       </WhiteOnPurpleTooltip>
@@ -91,7 +94,7 @@ export const menuList = (
       >
         <StyledMenuItem>
           <ListItemIcon style={{ justifyContent: "center" }}>
-            <CodeIcon style={{ color: purple[700] }} />
+            <CodeIcon style={{ color: purple[700] }} fontSize="large" />
           </ListItemIcon>
         </StyledMenuItem>
       </WhiteOnPurpleTooltip>
@@ -105,7 +108,7 @@ export const menuList = (
       >
         <StyledMenuItem>
           <ListItemIcon style={{ justifyContent: "center" }}>
-            <EmailIcon style={{ color: purple[700] }} />
+            <EmailIcon style={{ color: purple[700] }} fontSize="large" />
           </ListItemIcon>
         </StyledMenuItem>
       </WhiteOnPurpleTooltip>
