@@ -5,7 +5,7 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Social from "../components/Social";
-import MyButton from "../components/MyButton";
+import ButtonContainer from "../components/ButtonContainer";
 
 const useStyles = makeStyles(theme => ({
   root: { marginLeft: 0, marginTop: "20%" },
@@ -30,7 +30,7 @@ function HomePage() {
           Hi. I'm a full-stack web developer.
         </Typography>
       </div>
-      <Box mt={2}>{MyButton()}</Box>
+      <Box mt={2}>{ButtonContainer()}</Box>
       <Box mt={2}>{Social()}</Box>
     </Container>
   );
