@@ -43,7 +43,7 @@ export const menuList = (
     <Link href="/">
       <WhiteOnPurpleTooltip
         TransitionComponent={Fade}
-        TransitionProps={{ timeout: 600 }}
+        TransitionProps={{ timeout: 500 }}
         title="Home"
         placement="left"
       >
@@ -57,7 +57,7 @@ export const menuList = (
     <Link href="/portfolio">
       <WhiteOnPurpleTooltip
         TransitionComponent={Fade}
-        TransitionProps={{ timeout: 600 }}
+        TransitionProps={{ timeout: 500 }}
         title="Portfolio"
         placement="left"
       >
@@ -74,7 +74,7 @@ export const menuList = (
     <Link href="/profile">
       <WhiteOnPurpleTooltip
         TransitionComponent={Fade}
-        TransitionProps={{ timeout: 600 }}
+        TransitionProps={{ timeout: 500 }}
         title="Profile"
         placement="left"
       >
@@ -88,7 +88,7 @@ export const menuList = (
     <Link href="/skills">
       <WhiteOnPurpleTooltip
         TransitionComponent={Fade}
-        TransitionProps={{ timeout: 600 }}
+        TransitionProps={{ timeout: 500 }}
         title="Skills"
         placement="left"
       >
@@ -102,7 +102,7 @@ export const menuList = (
     <Link href="/contact">
       <WhiteOnPurpleTooltip
         TransitionComponent={Fade}
-        TransitionProps={{ timeout: 600 }}
+        TransitionProps={{ timeout: 500 }}
         title="Contact"
         placement="left"
       >

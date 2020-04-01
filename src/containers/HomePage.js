@@ -8,7 +8,7 @@ import Social from "../components/Social";
 import ButtonContainer from "../components/ButtonContainer";
 
 const useStyles = makeStyles(theme => ({
-  root: { marginLeft: 0, marginTop: "20%" },
+  root: { marginLeft: 0, marginTop: "20%", maxWidth: 470 },
   paper: {
     marginTop: theme.spacing(2),
     display: "flex",
@@ -24,10 +24,14 @@ function HomePage() {
       <CssBaseline />
       <div className={classes.paper}>
         <Typography component="h1" variant="h3">
-          Consuelo Sanna, <br /> Software Engineer
+          <Box fontWeight="fontWeightBold">
+            Consuelo Sanna, <br /> Software Engineer
+          </Box>
         </Typography>
         <Typography component="h2" variant="h5">
-          Hi. I'm a full-stack web developer.
+          <Box fontWeight="fontWeightBold">
+            Hi. I'm a full-stack web developer.
+          </Box>
         </Typography>
       </div>
       <Box mt={2}>{ButtonContainer()}</Box>

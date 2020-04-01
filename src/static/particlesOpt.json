@@ -68,14 +68,14 @@
     }
   },
   "interactivity": {
-    "detect_on": "canvas",
+    "detect_on": "window",
     "events": {
       "onhover": {
         "enable": true,
         "mode": "repulse"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "bubble"
       },
       "resize": true
