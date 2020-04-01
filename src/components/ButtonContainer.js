@@ -4,6 +4,7 @@ import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import { purple } from "@material-ui/core/colors";
+import MyButton from "./MyButton";
 
 const useStyles = makeStyles(theme => ({
   container: {
@@ -28,19 +29,12 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function MyButton() {
+export default function ButtonContainer() {
   const classes = useStyles();
   return (
     <Grid container className={classes.container}>
       <Grid item xs={5}>
-        <Button
-          type="submit"
-          fullWidth
-          variant="contained"
-          className={classes.button}
-        >
-          Portfolio
-        </Button>
+        <MyButton>Portfolio</MyButton>
       </Grid>
       <Grid item xs={5}>
         <Button
