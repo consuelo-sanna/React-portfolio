@@ -33,7 +33,7 @@ const StyledMenuItem = withStyles(theme => ({
 const WhiteOnPurpleTooltip = withStyles({
   tooltip: {
     color: "white",
-    fontSize: "1em",
+    fontSize: "1.8em",
     backgroundColor: "purple"
   }
 })(Tooltip);
@@ -43,13 +43,13 @@ export const menuList = (
     <Link href="/">
       <WhiteOnPurpleTooltip
         TransitionComponent={Fade}
-        TransitionProps={{ timeout: 600 }}
+        TransitionProps={{ timeout: 500 }}
         title="Home"
         placement="left"
       >
         <StyledMenuItem>
           <ListItemIcon style={{ justifyContent: "center" }}>
-            <HomeIcon style={{ color: purple[700] }} />
+            <HomeIcon style={{ color: purple[700] }} fontSize="large" />
           </ListItemIcon>
         </StyledMenuItem>
       </WhiteOnPurpleTooltip>
@@ -57,13 +57,16 @@ export const menuList = (
     <Link href="/portfolio">
       <WhiteOnPurpleTooltip
         TransitionComponent={Fade}
-        TransitionProps={{ timeout: 600 }}
+        TransitionProps={{ timeout: 500 }}
         title="Portfolio"
         placement="left"
       >
         <StyledMenuItem>
           <ListItemIcon style={{ justifyContent: "center" }}>
-            <BusinessCenterIcon style={{ color: purple[700] }} />
+            <BusinessCenterIcon
+              style={{ color: purple[700] }}
+              fontSize="large"
+            />
           </ListItemIcon>
         </StyledMenuItem>
       </WhiteOnPurpleTooltip>
@@ -71,13 +74,13 @@ export const menuList = (
     <Link href="/profile">
       <WhiteOnPurpleTooltip
         TransitionComponent={Fade}
-        TransitionProps={{ timeout: 600 }}
+        TransitionProps={{ timeout: 500 }}
         title="Profile"
         placement="left"
       >
         <StyledMenuItem>
           <ListItemIcon style={{ justifyContent: "center" }}>
-            <InfoIcon style={{ color: purple[700] }} />
+            <InfoIcon style={{ color: purple[700] }} fontSize="large" />
           </ListItemIcon>
         </StyledMenuItem>
       </WhiteOnPurpleTooltip>
@@ -85,13 +88,13 @@ export const menuList = (
     <Link href="/skills">
       <WhiteOnPurpleTooltip
         TransitionComponent={Fade}
-        TransitionProps={{ timeout: 600 }}
+        TransitionProps={{ timeout: 500 }}
         title="Skills"
         placement="left"
       >
         <StyledMenuItem>
           <ListItemIcon style={{ justifyContent: "center" }}>
-            <CodeIcon style={{ color: purple[700] }} />
+            <CodeIcon style={{ color: purple[700] }} fontSize="large" />
           </ListItemIcon>
         </StyledMenuItem>
       </WhiteOnPurpleTooltip>
@@ -99,13 +102,13 @@ export const menuList = (
     <Link href="/contact">
       <WhiteOnPurpleTooltip
         TransitionComponent={Fade}
-        TransitionProps={{ timeout: 600 }}
+        TransitionProps={{ timeout: 500 }}
         title="Contact"
         placement="left"
       >
         <StyledMenuItem>
           <ListItemIcon style={{ justifyContent: "center" }}>
-            <EmailIcon style={{ color: purple[700] }} />
+            <EmailIcon style={{ color: purple[700] }} fontSize="large" />
           </ListItemIcon>
         </StyledMenuItem>
       </WhiteOnPurpleTooltip>

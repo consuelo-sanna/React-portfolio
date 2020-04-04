@@ -8,7 +8,7 @@ import Social from "../components/Social";
 import ButtonContainer from "../components/ButtonContainer";
 
 const useStyles = makeStyles((theme) => ({
-  root: { marginLeft: 0, marginTop: "20%", maxWidth: 470 },
+  root: { marginLeft: 0, marginTop: "20%" },
   paper: {
     marginTop: theme.spacing(2),
     display: "flex",
@@ -17,26 +17,22 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function HomePage() {
+function PortfolioPage() {
   const classes = useStyles();
   return (
     <Container component="main" maxWidth="xs" className={classes.root}>
       <CssBaseline />
       <div className={classes.paper}>
         <Typography component="h1" variant="h3">
-          <Box fontWeight="fontWeightBold">
-            Consuelo Sanna, <br /> Software Engineer
-          </Box>
+          Portfolio Page
         </Typography>
         <Typography component="h2" variant="h5">
-          <Box fontWeight="fontWeightBold">
-            Hi. I'm an enthusiastic web developer.
-          </Box>
+          blabla bla bla portfolio qui
         </Typography>
       </div>
       <Box mt={2}>
         <ButtonContainer
-          left={{ link: "/portfolio", title: "Portfolio" }}
+          left={{ link: "/", title: "Home" }}
           right={{ link: "/profile", title: "Profile" }}
         />
       </Box>
@@ -45,4 +41,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default PortfolioPage;
