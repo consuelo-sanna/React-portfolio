@@ -7,14 +7,14 @@ import Container from "@material-ui/core/Container";
 import Social from "../components/Social";
 import ButtonContainer from "../components/ButtonContainer";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: { marginLeft: 0, marginTop: "20%" },
   paper: {
     marginTop: theme.spacing(2),
     display: "flex",
     flexDirection: "column",
-    alignItems: "center"
-  }
+    alignItems: "center",
+  },
 }));
 
 function PortfolioPage() {
@@ -30,7 +30,12 @@ function PortfolioPage() {
           blabla bla bla portfolio qui
         </Typography>
       </div>
-      <Box mt={2}>{ButtonContainer()}</Box>
+      <Box mt={2}>
+        <ButtonContainer
+          left={{ link: "/", title: "Home" }}
+          right={{ link: "/profile", title: "Profile" }}
+        />
+      </Box>
       <Box mt={2}>{Social()}</Box>
     </Container>
   );
