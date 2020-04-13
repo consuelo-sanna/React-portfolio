@@ -5,31 +5,31 @@ import Burger from "react-css-burger";
 import Menu from "@material-ui/core/Menu";
 import { menuList } from "../components/menuList";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   container: {
     display: "flex",
     justifyContent: "flex-end",
     marginRight: "0",
-    color: "primary"
-  }
+    color: "primary",
+  },
 }));
 
 const StyledMenu = withStyles({
   paper: {
     border: "1px solid #d3d4d5",
-    background: "transparent"
-  }
-})(props => (
+    background: "transparent",
+  },
+})((props) => (
   <Menu
     elevation={10}
     getContentAnchorEl={null}
     anchorOrigin={{
       vertical: "bottom",
-      horizontal: "center"
+      horizontal: "center",
     }}
     transformOrigin={{
       vertical: "top",
-      horizontal: "center"
+      horizontal: "center",
     }}
     {...props}
   />
@@ -40,7 +40,7 @@ function NavBar() {
   const [isActive, setIsActive] = useState(false);
   const [anchorEl, setAnchorEl] = React.useState(null);
 
-  const handleClick = event => {
+  const handleClick = (event) => {
     setIsActive(!isActive);
     setAnchorEl(event.currentTarget);
   };

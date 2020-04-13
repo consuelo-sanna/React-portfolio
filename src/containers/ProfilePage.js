@@ -15,7 +15,9 @@ import ButtonContainer from "../components/ButtonContainer";
 import { purple } from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
-  root: { marginLeft: 0, marginTop: "0%", maxWidth: "fit-content" },
+
+  root: { marginLeft: 0, marginTop: "2%", maxWidth: "fit-content" },
+
   paper: {
     marginTop: theme.spacing(2),
     marginLeft: theme.spacing(2),

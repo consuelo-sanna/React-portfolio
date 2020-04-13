@@ -1,42 +1,42 @@
 import React from "react";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import Box from "@material-ui/core/Box";
-import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
-import Social from "../components/Social";
+import Box from "@material-ui/core/Box";
+import Typography from "@material-ui/core/Typography";
 import ButtonContainer from "../components/ButtonContainer";
+import SliderPortfolio from "../components/SliderPortfolio";
+
+import "swiper/css/swiper.css";
 
 const useStyles = makeStyles((theme) => ({
-  root: { marginLeft: 0, marginTop: "20%" },
-  paper: {
-    marginTop: theme.spacing(2),
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
+
+  root: {
+    marginTop: "2%",
   },
 }));
 
 function PortfolioPage() {
   const classes = useStyles();
+
   return (
-    <Container component="main" maxWidth="xs" className={classes.root}>
-      <CssBaseline />
-      <div className={classes.paper}>
-        <Typography component="h1" variant="h3">
-          Portfolio Page
-        </Typography>
-        <Typography component="h2" variant="h5">
-          blabla bla bla portfolio qui
-        </Typography>
-      </div>
-      <Box mt={2}>
+    <Container component="main" className={classes.root}>
+      <Typography component="h4" variant="h4">
+        <Box
+          fontWeight="fontWeightBold" /* display="flex" justifyContent="center"*/
+        >
+          Some of my Projects
+        </Box>
+      </Typography>
+      <SliderPortfolio />
+      <Box mt={2} width={3 / 9}>
+
         <ButtonContainer
           left={{ link: "/", title: "Home" }}
           right={{ link: "/profile", title: "Profile" }}
         />
       </Box>
       <Box mt={2}>{Social()}</Box>
+
     </Container>
   );
 }

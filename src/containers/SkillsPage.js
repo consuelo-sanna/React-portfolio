@@ -1,43 +1,33 @@
+
+/** SkillsPage TODO: inserisci i button verso Home e Portfolio */
+
 import React from "react";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { makeStyles } from "@material-ui/core/styles";
+import { Container, Grid, Box, Typography } from "@material-ui/core";
+import ButtonContainer from "../components/ButtonContainer";
+
+import MyCard from "../components/MyCard";
 import {
-  Box,
-  Card,
-  Container,
-  Grid,
-  Paper,
-  Typography,
-} from "@material-ui/core";
-import { purple } from "@material-ui/core/colors";
+  LanguageList,
+  MethodsToolsList,
+  FrameworksLibrariesList,
+} from "../components/SkillsLists";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    marginTop: "10%",
+    marginTop: "5%",
     alignItems: "center",
     justifyContent: "center",
   },
-  paper: {
-    marginTop: theme.spacing(2),
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    background: "black",
-    color: "white",
-
-    opacity: 0.8,
-    borderRadius: "1em",
-  },
-  card: { display: "flex", padding: "1em", border: "2px" },
   container: {
-    margin: theme.spacing(3, 0, 2),
+
     display: "flex",
     justifyContent: "space-around",
     backgroundColor: "none",
   },
-  textColorPurple: {
-    color: purple[700],
-  },
+
+
 }));
 
 function SkillsPage() {
@@ -45,47 +35,32 @@ function SkillsPage() {
   return (
     <Container component="main" className={classes.root}>
       <CssBaseline />
-      <Grid container className={classes.container}>
-        <Grid item xs={3}>
-          <Paper elevation={3} className={classes.paper}>
-            <Card className={classes.card}>
-              <Typography
-                component="h3"
-                variant="h5"
-                className={classes.textColorPurple}
-              >
-                <Box fontWeight="fontWeightBold">Languages</Box>
-              </Typography>
-            </Card>
-          </Paper>
+
+      <Typography component="h4" variant="h4">
+        <Box
+          fontWeight="fontWeightBold" /* display="flex" justifyContent="center"*/
+        >
+          Skills
+        </Box>
+      </Typography>
+      <Grid container className={classes.container} spacing={1}>
+        <Grid item lg={3} sm={6} xs={12}>
+          <MyCard title={"Languages"} lista={LanguageList} />
         </Grid>
-        <Grid item xs={3}>
-          <Paper elevation={3} className={classes.paper}>
-            <Card className={classes.card}>
-              <Typography
-                component="h3"
-                variant="h5"
-                className={classes.textColorPurple}
-              >
-                <Box fontWeight="fontWeightBold">Methods & Tools</Box>
-              </Typography>
-            </Card>
-          </Paper>
+        <Grid item lg={3} sm={6} xs={12}>
+          <MyCard title={"Methods & Tools"} lista={MethodsToolsList} />
         </Grid>
-        <Grid item xs={3}>
-          <Paper elevation={3} className={classes.paper}>
-            <Card className={classes.card}>
-              <Typography
-                component="h3"
-                variant="h5"
-                className={classes.textColorPurple}
-              >
-                <Box fontWeight="fontWeightBold">Frameworks & Libs</Box>
-              </Typography>
-            </Card>
-          </Paper>
+        <Grid item lg={3} sm={12} xs={12}>
+          <MyCard title={"Frameworks & Libs"} lista={FrameworksLibrariesList} />
         </Grid>
       </Grid>
+      <Box mt={2} width={3 / 9}>
+        <ButtonContainer
+          left={{ link: "/", title: "Home" }}
+          right={{ link: "/portfolio", title: "Portfolio" }}
+        />
+      </Box>
+
     </Container>
   );
 }
