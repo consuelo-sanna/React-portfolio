@@ -3,7 +3,7 @@ import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 import { purple } from "@material-ui/core/colors";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   button: {
     background: "black",
     color: purple[700],
@@ -15,9 +15,9 @@ const useStyles = makeStyles(theme => ({
       background: "#e81bf3",
       boxShadow: "0 0 25px #e81bf3,0 0 50px #e81bf3,0 0 200px #e81bf3",
       color: "black",
-      transition: "0.5s"
-    }
-  }
+      transition: "0.5s",
+    },
+  },
 }));
 
 export default function MyButton(props) {

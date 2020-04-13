@@ -4,6 +4,7 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import HomePage from "./containers/HomePage";
 import PortfolioPage from "./containers/PortfolioPage";
 import ProfilePage from "./containers/ProfilePage";
+import SkillsPage from "./containers/SkillsPage";
 import NavBar from "./containers/NavBar";
 
 import Particle from "./components/Particle";
@@ -17,7 +18,7 @@ function App() {
         <Route exact path="/" component={HomePage} />
         <Route path="/portfolio" component={PortfolioPage} />
         <Route path="/profile" component={ProfilePage} />
-        <Route path="/skills" />
+        <Route path="/skills" component={SkillsPage} />
         <Route path="/contact" />
         <Redirect to="/" />
       </Switch>
