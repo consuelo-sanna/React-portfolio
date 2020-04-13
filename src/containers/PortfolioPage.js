@@ -9,6 +9,7 @@ import SliderPortfolio from "../components/SliderPortfolio";
 import "swiper/css/swiper.css";
 
 const useStyles = makeStyles((theme) => ({
+
   root: {
     marginTop: "2%",
   },
@@ -28,11 +29,14 @@ function PortfolioPage() {
       </Typography>
       <SliderPortfolio />
       <Box mt={2} width={3 / 9}>
+
         <ButtonContainer
           left={{ link: "/", title: "Home" }}
           right={{ link: "/profile", title: "Profile" }}
         />
       </Box>
+      <Box mt={2}>{Social()}</Box>
+
     </Container>
   );
 }
