@@ -12,30 +12,30 @@ import CodeIcon from "@material-ui/icons/Code";
 import { ListItemIcon } from "@material-ui/core";
 import { purple } from "@material-ui/core/colors";
 
-const StyledMenuItem = withStyles(theme => ({
+const StyledMenuItem = withStyles((theme) => ({
   root: {
     "&:focus": {
       backgroundColor: theme.palette.common.white,
       "& .MuiListItemIcon-root, & .MuiListItemText-primary": {
-        color: theme.palette.common.white
-      }
+        color: theme.palette.common.white,
+      },
     },
     "&:hover": {
       backgroundColor: "white",
-      opacity: 0.8
+      opacity: 0.8,
     },
     paddingLeft: 0,
     paddingRight: 0,
-    display: "flex"
-  }
+    display: "flex",
+  },
 }))(MenuItem);
 
 const WhiteOnPurpleTooltip = withStyles({
   tooltip: {
     color: "white",
     fontSize: "1.8em",
-    backgroundColor: "purple"
-  }
+    backgroundColor: "purple",
+  },
 })(Tooltip);
 
 export const menuList = (
@@ -99,7 +99,7 @@ export const menuList = (
         </StyledMenuItem>
       </WhiteOnPurpleTooltip>
     </Link>
-    <Link href="/contact">
+    <Link href="mailto:consu.sanna@gmail.com" target="_blank">
       <WhiteOnPurpleTooltip
         TransitionComponent={Fade}
         TransitionProps={{ timeout: 500 }}

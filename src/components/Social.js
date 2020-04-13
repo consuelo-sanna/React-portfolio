@@ -6,17 +6,17 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   container: {
     margin: theme.spacing(3, 0, 2),
     display: "flex",
     justifyContent: "space-around",
-    backgroundColor: "none"
+    backgroundColor: "none",
   },
   button: {
     background: "transparent",
-    boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)"
-  }
+    boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)",
+  },
 }));
 
 export default function Social() {
