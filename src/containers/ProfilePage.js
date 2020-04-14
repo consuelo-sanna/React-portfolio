@@ -15,7 +15,6 @@ import ButtonContainer from "../components/ButtonContainer";
 import { purple } from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
-
   root: { marginLeft: 0, marginTop: "2%", maxWidth: "fit-content" },
 
   paper: {
@@ -40,7 +39,6 @@ function ProfilePage() {
   const classes = useStyles();
   return (
     <Container component="main" maxWidth="md" className={classes.root}>
-      <CssBaseline />
       <div className={classes.paper}>
         <Typography
           component="h1"

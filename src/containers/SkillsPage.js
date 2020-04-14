@@ -1,4 +1,3 @@
-
 /** SkillsPage TODO: inserisci i button verso Home e Portfolio */
 
 import React from "react";
@@ -21,21 +20,16 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
   },
   container: {
-
     display: "flex",
     justifyContent: "space-around",
     backgroundColor: "none",
   },
-
-
 }));
 
 function SkillsPage() {
   const classes = useStyles();
   return (
     <Container component="main" className={classes.root}>
-      <CssBaseline />
-
       <Typography component="h4" variant="h4">
         <Box
           fontWeight="fontWeightBold" /* display="flex" justifyContent="center"*/
@@ -60,7 +54,6 @@ function SkillsPage() {
           right={{ link: "/portfolio", title: "Portfolio" }}
         />
       </Box>
-
     </Container>
   );
 }
