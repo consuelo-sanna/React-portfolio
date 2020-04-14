@@ -7,6 +7,8 @@ import PortfolioCard from "./PortfolioCard";
 import imgPortfolio from "../static/images/portfolio.jpg";
 import imgCode from "../static/images/code.jpg";
 import imgBarbarART from "../static/images/barbart.jpg";
+import impPortfoliok from "../static/images/portfoliok.jpg";
+import imgNeurospyt from "../static/images/neurospyt.jpg";
 
 const CoverflowEffect = () => {
   const params = {
@@ -50,12 +52,12 @@ const CoverflowEffect = () => {
         <PortfolioCard
           title={"This Portfolio"}
           subtitle={"React"}
-          mediaContent={imgCode}
+          mediaContent={impPortfoliok}
           textContent={
             "I know this is a static site and it was not necessary the use of React but it helped me learn more about it."
           }
           linkSite={"https://www.neurospyt.com/"}
-          linkCode={"https://www.neurospyt.com/"}
+          linkCode={"https://github/consuelo-sanna/React-portfolio"}
         />
       </div>
       <div>
@@ -66,7 +68,7 @@ const CoverflowEffect = () => {
             "This app use MongoDB, Express, React and Node and allows the authenticated user to use the CRUD functions and sockets."
           }
           mediaContent={imgCode}
-          linksite={""}
+          linkSite={""}
           linkCode={""}
         />
       </div>
@@ -78,8 +80,8 @@ const CoverflowEffect = () => {
           textContent={
             "This app was entirely built with Django. The idea was to learn this framework and improve my Python, HTML & CSS skills."
           }
-          linksite={""}
-          linkCode={""}
+          linkSite={"http://consuelo.pythonanywhere.com"}
+          linkCode={"https://github.com/consuelo-sanna/django-portfolio"}
         />
       </div>
 
@@ -99,7 +101,7 @@ const CoverflowEffect = () => {
         <PortfolioCard
           title={"Neurospyt"}
           subtitle={"Wordpress"}
-          mediaContent={imgCode}
+          mediaContent={imgNeurospyt}
           textContent={
             "This is a web site built with the CMS Wordpress. I don't have the code in a repository, so both link go to the site."
           }
