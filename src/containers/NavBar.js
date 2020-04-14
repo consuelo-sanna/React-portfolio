@@ -59,7 +59,7 @@ function NavBar() {
         onClick={isActive ? handleClose : handleClick}
         active={isActive}
         burger="spring"
-        color="#7e37ac"
+        color="#6f63ad"
         hoverOpacity={0.8}
         scale={1.2}
       />

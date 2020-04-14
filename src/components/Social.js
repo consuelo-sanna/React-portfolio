@@ -15,7 +15,14 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     background: "transparent",
-    boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)",
+    color: "#f3f3f3",
+    boxShadow: "0 1.5px 5px 2px rgba(111, 99, 173, 0.8)",
+    "&:hover": {
+      background: "#f3f3f3",
+
+      color: "black",
+      transition: "0.5s",
+    },
   },
 }));
 

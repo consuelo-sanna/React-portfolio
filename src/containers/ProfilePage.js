@@ -5,7 +5,6 @@
  */
 
 import React from "react";
-import CssBaseline from "@material-ui/core/CssBaseline";
 import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
@@ -15,7 +14,6 @@ import ButtonContainer from "../components/ButtonContainer";
 import { purple } from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
-
   root: { marginLeft: 0, marginTop: "2%", maxWidth: "fit-content" },
 
   paper: {
@@ -32,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)",
   },
   textColorPurple: {
-    color: purple[700],
+    color: "#6f63ad",
   },
 }));
 
@@ -40,7 +38,6 @@ function ProfilePage() {
   const classes = useStyles();
   return (
     <Container component="main" maxWidth="md" className={classes.root}>
-      <CssBaseline />
       <div className={classes.paper}>
         <Typography
           component="h1"

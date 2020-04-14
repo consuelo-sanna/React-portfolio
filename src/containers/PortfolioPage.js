@@ -12,6 +12,9 @@ const useStyles = makeStyles((theme) => ({
   root: {
     marginTop: "2%",
   },
+  textColorPurple: {
+    color: "#6f63ad",
+  },
 }));
 
 function PortfolioPage() {
@@ -19,7 +22,11 @@ function PortfolioPage() {
 
   return (
     <Container component="main" className={classes.root}>
-      <Typography component="h4" variant="h4">
+      <Typography
+        component="h4"
+        variant="h4"
+        className={classes.textColorPurple}
+      >
         <Box
           fontWeight="fontWeightBold" /* display="flex" justifyContent="center"*/
         >

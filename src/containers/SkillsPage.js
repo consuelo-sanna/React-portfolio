@@ -1,8 +1,6 @@
-
 /** SkillsPage TODO: inserisci i button verso Home e Portfolio */
 
 import React from "react";
-import CssBaseline from "@material-ui/core/CssBaseline";
 import { makeStyles } from "@material-ui/core/styles";
 import { Container, Grid, Box, Typography } from "@material-ui/core";
 import ButtonContainer from "../components/ButtonContainer";
@@ -21,22 +19,24 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
   },
   container: {
-
     display: "flex",
     justifyContent: "space-around",
     backgroundColor: "none",
   },
-
-
+  textColorPurple: {
+    color: "#6f63ad",
+  },
 }));
 
 function SkillsPage() {
   const classes = useStyles();
   return (
     <Container component="main" className={classes.root}>
-      <CssBaseline />
-
-      <Typography component="h4" variant="h4">
+      <Typography
+        component="h4"
+        variant="h4"
+        className={classes.textColorPurple}
+      >
         <Box
           fontWeight="fontWeightBold" /* display="flex" justifyContent="center"*/
         >
@@ -60,7 +60,6 @@ function SkillsPage() {
           right={{ link: "/portfolio", title: "Portfolio" }}
         />
       </Box>
-
     </Container>
   );
 }

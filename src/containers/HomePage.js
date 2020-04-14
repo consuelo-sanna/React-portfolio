@@ -1,5 +1,4 @@
 import React from "react";
-import CssBaseline from "@material-ui/core/CssBaseline";
 import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
@@ -21,7 +20,6 @@ function HomePage() {
   const classes = useStyles();
   return (
     <Container component="main" maxWidth="xs" className={classes.root}>
-      <CssBaseline />
       <div className={classes.paper}>
         <Typography component="h1" variant="h3">
           <Box fontWeight="fontWeightBold">
@@ -40,7 +38,9 @@ function HomePage() {
           right={{ link: "/profile", title: "Profile" }}
         />
       </Box>
-      <Box mt={2}>{Social()}</Box>
+      <Box mt={2}>
+        <Social />
+      </Box>
     </Container>
   );
 }

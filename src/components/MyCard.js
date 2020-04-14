@@ -10,14 +10,14 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     background: "black",
     color: "white",
-    padding: "1em",
+    padding: "0.5em",
     opacity: 0.8,
     borderRadius: "1em",
   },
   card: {
     display: "flex",
-    padding: "1em",
-    border: "2px",
+    padding: "0.5em",
+    border: "0.5px",
     justifyContent: "center",
     transition: theme.transitions.create(["border-color", "scale", "opacity"], {
       duration: theme.transitions.duration.complex,
@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   textColorPurple: {
-    color: purple[700],
+    color: "#6f63ad",
   },
 }));
 

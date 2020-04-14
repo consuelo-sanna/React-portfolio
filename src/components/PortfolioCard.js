@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
   },
   colorPurple: {
-    color: purple[700],
+    color: "#6f63ad",
   },
   paper: {
     marginTop: theme.spacing(2),
@@ -43,8 +43,8 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     background: "black",
     color: "white",
-    padding: "1em",
-    opacity: 0.8,
+    padding: "0.5em",
+    opacity: 0.9,
     borderRadius: "1em",
   },
 }));
