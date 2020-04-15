@@ -12,6 +12,9 @@ const useStyles = makeStyles((theme) => ({
   root: {
     marginTop: "2%",
   },
+  buttonSize: {
+    maxWidth: "400px",
+  },
 }));
 
 function PortfolioPage() {
@@ -27,7 +30,7 @@ function PortfolioPage() {
         </Box>
       </Typography>
       <SliderPortfolio />
-      <Box mt={2} width={3 / 9}>
+      <Box mt={2} className={classes.container}>
         <ButtonContainer
           left={{ link: baseUrl + "/", title: "Home" }}
           right={{ link: baseUrl + "/profile", title: "Profile" }}

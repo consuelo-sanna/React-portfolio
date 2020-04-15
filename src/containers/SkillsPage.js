@@ -23,6 +23,9 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "space-around",
     backgroundColor: "none",
   },
+  buttonSize: {
+    maxWidth: "400px",
+  },
 }));
 
 function SkillsPage() {
@@ -48,7 +51,7 @@ function SkillsPage() {
           <MyCard title={"Frameworks & Libs"} lista={FrameworksLibrariesList} />
         </Grid>
       </Grid>
-      <Box mt={2} width={3 / 9}>
+      <Box mt={2} className={classes.buttonSize}>
         <ButtonContainer
           left={{ link: baseUrl + "/", title: "Home" }}
           right={{ link: baseUrl + "/portfolio", title: "Portfolio" }}
