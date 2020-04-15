@@ -5,10 +5,10 @@ import "./SliderPortfolio.css";
 
 import PortfolioCard from "./PortfolioCard";
 import imgPortfolio from "../static/images/portfolio.jpg";
-import imgCode from "../static/images/code.jpg";
 import imgBarbarART from "../static/images/barbart.jpg";
 import impPortfoliok from "../static/images/portfoliok.jpg";
 import imgNeurospyt from "../static/images/neurospyt.jpg";
+import imgTodo from "../static/images/todo.jpg";
 
 const CoverflowEffect = () => {
   const params = {
@@ -65,11 +65,11 @@ const CoverflowEffect = () => {
           title={"To Do App"}
           subtitle={"MERN stack application"}
           textContent={
-            "This app use MongoDB, Express, React and Node and allows the authenticated user to use the CRUD functions and sockets."
+            "This app use MongoDB, Express, React and Node and allows the authenticated user to use the CRUD functions and sockets. You can check both client and server rep."
           }
-          mediaContent={imgCode}
-          linkSite={""}
-          linkCode={""}
+          mediaContent={imgTodo}
+          linkSite={"https://github.com/consuelo-sanna/my_todo"}
+          linkCode={"https://github.com/consuelo-sanna/server_todo"}
         />
       </div>
       <div>
