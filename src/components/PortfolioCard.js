@@ -82,6 +82,7 @@ export default function PortfolioCard(props) {
             aria-label="go to site"
             target="_blank"
             href={props.linkSite}
+            alt="check site"
           >
             <LaunchIcon className={classes.colorPurple} />
           </IconButton>
@@ -89,6 +90,7 @@ export default function PortfolioCard(props) {
             aria-label="source code"
             target="_blank"
             href={props.linkCode}
+            alt="check code"
           >
             <CodeIcon className={classes.colorPurple} />
           </IconButton>
