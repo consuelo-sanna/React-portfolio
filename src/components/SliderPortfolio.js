@@ -56,7 +56,7 @@ const CoverflowEffect = () => {
           textContent={
             "I know this is a static site and it was not necessary the use of React but it helped me learn more about it."
           }
-          linkSite={"https://www.neurospyt.com/"}
+          linkSite={"https://consuelo-sanna.github.io/React-portfolio"}
           linkCode={"https://github/consuelo-sanna/React-portfolio"}
         />
       </div>
