@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
 
 function HomePage() {
   const classes = useStyles();
+  const baseUrl = process.env.PUBLIC_URL; //could have been done better, it is only necessary for github
   return (
     <Container component="main" maxWidth="xs" className={classes.root}>
       <div className={classes.paper}>
@@ -34,8 +35,8 @@ function HomePage() {
       </div>
       <Box mt={2}>
         <ButtonContainer
-          left={{ link: "/portfolio", title: "Portfolio" }}
-          right={{ link: "/profile", title: "Profile" }}
+          left={{ link: baseUrl + "/portfolio", title: "Portfolio" }}
+          right={{ link: baseUrl + "/profile", title: "Profile" }}
         />
       </Box>
       <Box mt={2}>{Social()}</Box>

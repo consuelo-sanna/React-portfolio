@@ -36,6 +36,7 @@ const useStyles = makeStyles((theme) => ({
 
 function ProfilePage() {
   const classes = useStyles();
+  const baseUrl = process.env.PUBLIC_URL; //could have been done better, it is only necessary for github
   return (
     <Container component="main" maxWidth="md" className={classes.root}>
       <div className={classes.paper}>
@@ -93,8 +94,8 @@ function ProfilePage() {
       </div>
       <Box mt={2}>
         <ButtonContainer
-          left={{ link: "/", title: "Home" }}
-          right={{ link: "/skills", title: "Skills" }}
+          left={{ link: baseUrl + "/", title: "Home" }}
+          right={{ link: baseUrl + "/skills", title: "Skills" }}
         />
       </Box>
       {/** qui metterai home e skills come bottoni */}

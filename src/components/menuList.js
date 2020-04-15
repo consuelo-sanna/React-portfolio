@@ -40,7 +40,7 @@ const WhiteOnPurpleTooltip = withStyles({
 
 export const menuList = (
   <div>
-    <Link href="/">
+    <Link href={process.env.PUBLIC_URL + "/"}>
       <WhiteOnPurpleTooltip
         TransitionComponent={Fade}
         TransitionProps={{ timeout: 500 }}
@@ -54,7 +54,7 @@ export const menuList = (
         </StyledMenuItem>
       </WhiteOnPurpleTooltip>
     </Link>
-    <Link href="/portfolio">
+    <Link href={process.env.PUBLIC_URL + "/portfolio"}>
       <WhiteOnPurpleTooltip
         TransitionComponent={Fade}
         TransitionProps={{ timeout: 500 }}
@@ -71,7 +71,7 @@ export const menuList = (
         </StyledMenuItem>
       </WhiteOnPurpleTooltip>
     </Link>
-    <Link href="/profile">
+    <Link href={process.env.PUBLIC_URL + "/profile"}>
       <WhiteOnPurpleTooltip
         TransitionComponent={Fade}
         TransitionProps={{ timeout: 500 }}
@@ -85,7 +85,7 @@ export const menuList = (
         </StyledMenuItem>
       </WhiteOnPurpleTooltip>
     </Link>
-    <Link href="/skills">
+    <Link href={process.env.PUBLIC_URL + "/skills"}>
       <WhiteOnPurpleTooltip
         TransitionComponent={Fade}
         TransitionProps={{ timeout: 500 }}

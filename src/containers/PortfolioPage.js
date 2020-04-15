@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
 
 function PortfolioPage() {
   const classes = useStyles();
-
+  const baseUrl = process.env.PUBLIC_URL; //could have been done better, it is only necessary for github
   return (
     <Container component="main" className={classes.root}>
       <Typography component="h4" variant="h4">
@@ -29,8 +29,8 @@ function PortfolioPage() {
       <SliderPortfolio />
       <Box mt={2} width={3 / 9}>
         <ButtonContainer
-          left={{ link: "/", title: "Home" }}
-          right={{ link: "/profile", title: "Profile" }}
+          left={{ link: baseUrl + "/", title: "Home" }}
+          right={{ link: baseUrl + "/profile", title: "Profile" }}
         />
       </Box>
     </Container>
