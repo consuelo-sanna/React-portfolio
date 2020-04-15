@@ -21,7 +21,6 @@ function HomePage() {
   const classes = useStyles();
   return (
     <Container component="main" maxWidth="xs" className={classes.root}>
-      <CssBaseline />
       <div className={classes.paper}>
         <Typography component="h1" variant="h3">
           <Box fontWeight="fontWeightBold">
