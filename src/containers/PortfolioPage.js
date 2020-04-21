@@ -30,7 +30,7 @@ function PortfolioPage() {
         </Box>
       </Typography>
       <SliderPortfolio />
-      <Box mt={2} className={classes.container}>
+      <Box mt={2} className={classes.buttonSize}>
         <ButtonContainer
           left={{ link: baseUrl + "/", title: "Home" }}
           right={{ link: baseUrl + "/profile", title: "Profile" }}
