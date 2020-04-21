@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Burger from "react-css-burger";
 import Menu from "@material-ui/core/Menu";
 import { menuList } from "../components/menuList";
+import imgLogo from "../static/images/longLogo.png";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -11,6 +12,12 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "flex-end",
     marginRight: "0",
     color: "primary",
+  },
+  logo: {
+    display: "flex",
+    alignSelf: "flex-end",
+    margin: "auto",
+    marginLeft: 0,
   },
 }));
 
@@ -51,28 +58,33 @@ function NavBar() {
   };
 
   return (
-    <Container component="main" className={classes.container}>
-      <Burger
-        anchorEl={anchorEl}
-        keepMounted
-        open={Boolean(anchorEl)}
-        onClick={isActive ? handleClose : handleClick}
-        active={isActive}
-        burger="spring"
-        color="#7e37ac"
-        hoverOpacity={0.8}
-        scale={1.2}
-      />
-      <StyledMenu
-        id="simple-menu"
-        anchorEl={anchorEl}
-        keepMounted
-        open={Boolean(anchorEl)}
-        onClose={handleClose}
-      >
-        {menuList}
-      </StyledMenu>
-    </Container>
+    <Fragment>
+      <Container component="main" className={classes.container}>
+        <div className={classes.logo}>
+          <img src={imgLogo} alt="Consuelo Sanna" />
+        </div>
+        <Burger
+          anchorEl={anchorEl}
+          keepMounted
+          open={Boolean(anchorEl)}
+          onClick={isActive ? handleClose : handleClick}
+          active={isActive}
+          burger="spring"
+          color="#7e37ac"
+          hoverOpacity={0.8}
+          scale={1.2}
+        />
+        <StyledMenu
+          id="simple-menu"
+          anchorEl={anchorEl}
+          keepMounted
+          open={Boolean(anchorEl)}
+          onClose={handleClose}
+        >
+          {menuList}
+        </StyledMenu>
+      </Container>
+    </Fragment>
   );
 }
 
