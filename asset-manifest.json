@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React-portfolio/static/css/main.b850a561.chunk.css",
-    "main.js": "/React-portfolio/static/js/main.06535196.chunk.js",
-    "main.js.map": "/React-portfolio/static/js/main.06535196.chunk.js.map",
+    "main.css": "/React-portfolio/static/css/main.fe0847c7.chunk.css",
+    "main.js": "/React-portfolio/static/js/main.ba326d25.chunk.js",
+    "main.js.map": "/React-portfolio/static/js/main.ba326d25.chunk.js.map",
     "runtime-main.js": "/React-portfolio/static/js/runtime-main.0ea60777.js",
     "runtime-main.js.map": "/React-portfolio/static/js/runtime-main.0ea60777.js.map",
     "static/css/2.ba989b92.chunk.css": "/React-portfolio/static/css/2.ba989b92.chunk.css",
-    "static/js/2.d200be6b.chunk.js": "/React-portfolio/static/js/2.d200be6b.chunk.js",
-    "static/js/2.d200be6b.chunk.js.map": "/React-portfolio/static/js/2.d200be6b.chunk.js.map",
+    "static/js/2.de5e6eaf.chunk.js": "/React-portfolio/static/js/2.de5e6eaf.chunk.js",
+    "static/js/2.de5e6eaf.chunk.js.map": "/React-portfolio/static/js/2.de5e6eaf.chunk.js.map",
     "index.html": "/React-portfolio/index.html",
-    "precache-manifest.ba201ff3d5b6b0d866329a00361bef37.js": "/React-portfolio/precache-manifest.ba201ff3d5b6b0d866329a00361bef37.js",
+    "precache-manifest.38ae95871f9841d37d6f0443c424589a.js": "/React-portfolio/precache-manifest.38ae95871f9841d37d6f0443c424589a.js",
     "service-worker.js": "/React-portfolio/service-worker.js",
     "static/css/2.ba989b92.chunk.css.map": "/React-portfolio/static/css/2.ba989b92.chunk.css.map",
-    "static/css/main.b850a561.chunk.css.map": "/React-portfolio/static/css/main.b850a561.chunk.css.map",
-    "static/js/2.d200be6b.chunk.js.LICENSE.txt": "/React-portfolio/static/js/2.d200be6b.chunk.js.LICENSE.txt",
+    "static/css/main.fe0847c7.chunk.css.map": "/React-portfolio/static/css/main.fe0847c7.chunk.css.map",
+    "static/js/2.de5e6eaf.chunk.js.LICENSE.txt": "/React-portfolio/static/js/2.de5e6eaf.chunk.js.LICENSE.txt",
     "static/media/neurospyt.jpg": "/React-portfolio/static/media/neurospyt.84aaa5d0.jpg",
     "static/media/portfolio.jpg": "/React-portfolio/static/media/portfolio.1d7909a5.jpg",
     "static/media/portfoliok.jpg": "/React-portfolio/static/media/portfoliok.1863ff25.jpg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.0ea60777.js",
     "static/css/2.ba989b92.chunk.css",
-    "static/js/2.d200be6b.chunk.js",
-    "static/css/main.b850a561.chunk.css",
-    "static/js/main.06535196.chunk.js"
+    "static/js/2.de5e6eaf.chunk.js",
+    "static/css/main.fe0847c7.chunk.css",
+    "static/js/main.ba326d25.chunk.js"
   ]
 }
