@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Burger from "react-css-burger";
 import Menu from "@material-ui/core/Menu";
 import { menuList } from "../components/menuList";
+import Hidden from "@material-ui/core/Hidden";
+import imgLogoLong from "../static/images/Orocredo.png";
+import imgLogoShort from "../static/images/shortLogo.png";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -12,11 +15,17 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "0",
     color: "primary",
   },
+  logo: {
+    display: "flex",
+    alignSelf: "flex-end",
+    margin: "auto",
+    marginLeft: 0,
+  },
 }));
 
 const StyledMenu = withStyles({
   paper: {
-    border: "1px solid #d3d4d5",
+    border: "1px solid #d3b43d",
     background: "transparent",
   },
 })((props) => (
@@ -51,28 +60,45 @@ function NavBar() {
   };
 
   return (
-    <Container component="main" className={classes.container}>
-      <Burger
-        anchorEl={anchorEl}
-        keepMounted
-        open={Boolean(anchorEl)}
-        onClick={isActive ? handleClose : handleClick}
-        active={isActive}
-        burger="spring"
-        color="#7e37ac"
-        hoverOpacity={0.8}
-        scale={1.2}
-      />
-      <StyledMenu
-        id="simple-menu"
-        anchorEl={anchorEl}
-        keepMounted
-        open={Boolean(anchorEl)}
-        onClose={handleClose}
+    <Fragment>
+      <Container
+        component="main"
+        className={classes.container}
+        maxWidth={false}
       >
-        {menuList}
-      </StyledMenu>
-    </Container>
+        <Hidden xsDown>
+          <div className={classes.logo}>
+            <img src={imgLogoLong} alt="Consuelo Sanna" />
+          </div>
+        </Hidden>
+        <Hidden smUp>
+          <div className={classes.logo}>
+            <img src={imgLogoShort} alt="Consuelo Sanna" />
+          </div>
+        </Hidden>
+
+        <Burger
+          anchorEl={anchorEl}
+          keepMounted
+          open={Boolean(anchorEl)}
+          onClick={isActive ? handleClose : handleClick}
+          active={isActive}
+          burger="spring"
+          color="#7e37ac"
+          hoverOpacity={0.8}
+          scale={1.2}
+        />
+        <StyledMenu
+          id="simple-menu"
+          anchorEl={anchorEl}
+          keepMounted
+          open={Boolean(anchorEl)}
+          onClose={handleClose}
+        >
+          {menuList}
+        </StyledMenu>
+      </Container>
+    </Fragment>
   );
 }
 

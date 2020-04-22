@@ -22,15 +22,13 @@ function HomePage() {
   return (
     <Container component="main" maxWidth="xs" className={classes.root}>
       <div className={classes.paper}>
-        <Typography component="h1" variant="h3">
-          <Box fontWeight="fontWeightBold">
+        <Typography component="h3" variant="h3">
+          <Box>
             Consuelo Sanna, <br /> Software Engineer
           </Box>
         </Typography>
-        <Typography component="h2" variant="h5">
-          <Box fontWeight="fontWeightBold">
-            Hi. I'm an enthusiastic web developer.
-          </Box>
+        <Typography component="h5" variant="h5">
+          <Box>Hi. I'm an enthusiastic web developer.</Box>
         </Typography>
       </div>
       <Box mt={2}>

@@ -31,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
   },
   textColorPurple: {
     color: purple[700],
+    "&:hover": { color: "#d3b43d" },
   },
 }));
 

@@ -27,11 +27,12 @@ const useStyles = makeStyles((theme) => ({
     padding: "2em",
     opacity: 0.8,
     borderRadius: "3em",
-    boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)",
+    boxShadow: "0 3px 5px 2px rgba(212, 180, 61, .3)",
   },
   textColorPurple: {
     color: purple[700],
   },
+  customFont: { fontFamily: "D3 Euronism" },
 }));
 
 function ProfilePage() {
@@ -45,7 +46,7 @@ function ProfilePage() {
           variant="h3"
           className={classes.textColorPurple}
         >
-          <Box fontWeight="fontWeightBold">
+          <Box className={classes.customFont}>
             Hello, <br />
           </Box>
         </Typography>
@@ -54,7 +55,7 @@ function ProfilePage() {
           variant="h5"
           className={classes.textColorPurple}
         >
-          <Box fontWeight="fontWeightBold">
+          <Box className={classes.customFont}>
             is it me you're looking for? <br />
           </Box>
         </Typography>
@@ -76,7 +77,7 @@ function ProfilePage() {
           variant="h5"
           className={classes.textColorPurple}
         >
-          <Box fontWeight="fontWeightBold">
+          <Box className={classes.customFont}>
             <br />
             Experiences
           </Box>

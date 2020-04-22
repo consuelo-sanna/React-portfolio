@@ -1,5 +1,40 @@
 * {
-  font-family: "Times New Roman", Times, serif;
+  font-family: serif, "Times New Roman", Times;
+}
+
+@font-face {
+  font-family: "D3 Euronism";
+  src: url("//db.onlinewebfonts.com/t/ed8bbb5e97688783fd975e1a2adb9784.eot");
+  src: url("//db.onlinewebfonts.com/t/ed8bbb5e97688783fd975e1a2adb9784.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/ed8bbb5e97688783fd975e1a2adb9784.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/ed8bbb5e97688783fd975e1a2adb9784.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/ed8bbb5e97688783fd975e1a2adb9784.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/ed8bbb5e97688783fd975e1a2adb9784.svg#D3 Euronism")
+      format("svg");
+}
+
+/** Home Testo */
+
+/** Bottoni */
+a,
+span {
+  font-family: "D3 Euronism";
+}
+@media (max-width: 433px) {
+  a,
+  span {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 350px) {
+  a,
+  span {
+    font-size: 0.9rem;
+  }
 }
 
 body {
@@ -11,11 +46,4 @@ body {
     rgba(9, 1, 14, 0.9290091036414566) 72%
   );
   color: #ffffff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
