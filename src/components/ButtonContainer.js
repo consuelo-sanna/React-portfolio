@@ -17,7 +17,6 @@ const useStyles = makeStyles((theme) => ({
     color: purple[700],
     fontSize: "1.5em",
     fontWeight: 700,
-
     boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)",
     "&:hover": {
       background: "#e81bf3",

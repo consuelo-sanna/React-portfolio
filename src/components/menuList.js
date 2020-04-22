@@ -35,6 +35,7 @@ const WhiteOnPurpleTooltip = withStyles({
     color: "white",
     fontSize: "1.8em",
     backgroundColor: "purple",
+    fontFamily: "D3 Euronism",
   },
 })(Tooltip);
 

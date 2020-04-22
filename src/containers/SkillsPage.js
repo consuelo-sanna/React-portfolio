@@ -26,6 +26,7 @@ const useStyles = makeStyles((theme) => ({
   buttonSize: {
     maxWidth: "400px",
   },
+  customFont: { fontFamily: "D3 Euronism" },
 }));
 
 function SkillsPage() {
@@ -35,7 +36,8 @@ function SkillsPage() {
     <Container component="main" className={classes.root}>
       <Typography component="h4" variant="h4">
         <Box
-          fontWeight="fontWeightBold" /* display="flex" justifyContent="center"*/
+          className={classes.customFont}
+          /* display="flex" justifyContent="center"*/
         >
           Skills
         </Box>
