@@ -4,7 +4,9 @@ import Container from "@material-ui/core/Container";
 import Burger from "react-css-burger";
 import Menu from "@material-ui/core/Menu";
 import { menuList } from "../components/menuList";
-import imgLogo from "../static/images/Orocredo.png";
+import Hidden from "@material-ui/core/Hidden";
+import imgLogoLong from "../static/images/Orocredo.png";
+import imgLogoShort from "../static/images/shortLogo.png";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -64,9 +66,17 @@ function NavBar() {
         className={classes.container}
         maxWidth={false}
       >
-        <div className={classes.logo}>
-          <img src={imgLogo} alt="Consuelo Sanna" />
-        </div>
+        <Hidden xsDown>
+          <div className={classes.logo}>
+            <img src={imgLogoLong} alt="Consuelo Sanna" />
+          </div>
+        </Hidden>
+        <Hidden smUp>
+          <div className={classes.logo}>
+            <img src={imgLogoShort} alt="Consuelo Sanna" />
+          </div>
+        </Hidden>
+
         <Burger
           anchorEl={anchorEl}
           keepMounted
