@@ -7,7 +7,8 @@ const useStyles = makeStyles((theme) => ({
   button: {
     background: "black",
     color: purple[700],
-    fontSize: "1.5em",
+    fontSize: "1.3em",
+
     fontWeight: 700,
 
     boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)",
