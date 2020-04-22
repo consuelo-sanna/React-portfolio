@@ -4,7 +4,7 @@ import Container from "@material-ui/core/Container";
 import Burger from "react-css-burger";
 import Menu from "@material-ui/core/Menu";
 import { menuList } from "../components/menuList";
-import imgLogo from "../static/images/longLogo.png";
+import imgLogo from "../static/images/Orocredo.png";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
 
 const StyledMenu = withStyles({
   paper: {
-    border: "1px solid #d3d4d5",
+    border: "1px solid #d3b43d",
     background: "transparent",
   },
 })((props) => (
@@ -59,7 +59,11 @@ function NavBar() {
 
   return (
     <Fragment>
-      <Container component="main" className={classes.container}>
+      <Container
+        component="main"
+        className={classes.container}
+        maxWidth={false}
+      >
         <div className={classes.logo}>
           <img src={imgLogo} alt="Consuelo Sanna" />
         </div>

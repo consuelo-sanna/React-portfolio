@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     background: "transparent",
-    boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)",
+    boxShadow: "0 3px 5px 2px rgba(212, 180, 61, .3)",
   },
 }));
 

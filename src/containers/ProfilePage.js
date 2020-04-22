@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "2em",
     opacity: 0.8,
     borderRadius: "3em",
-    boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)",
+    boxShadow: "0 3px 5px 2px rgba(212, 180, 61, .3)",
   },
   textColorPurple: {
     color: purple[700],
