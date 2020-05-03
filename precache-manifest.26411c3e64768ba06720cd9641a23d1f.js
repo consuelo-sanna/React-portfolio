@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc5bf83ea94c892490b4d40828c9b897",
+    "revision": "79a261eadbee871e52d02c69d08e9e78",
     "url": "/React-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-portfolio/static/css/2.ba989b92.chunk.css"
   },
   {
-    "revision": "95dddff5758e807b1e82",
+    "revision": "328547c4859b776c96c5",
     "url": "/React-portfolio/static/css/main.fe0847c7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-portfolio/static/js/2.de5e6eaf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "95dddff5758e807b1e82",
-    "url": "/React-portfolio/static/js/main.ba326d25.chunk.js"
+    "revision": "328547c4859b776c96c5",
+    "url": "/React-portfolio/static/js/main.8d599636.chunk.js"
   },
   {
     "revision": "f59a610508fff90213fa",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-portfolio/static/media/neurospyt.84aaa5d0.jpg"
   },
   {
-    "revision": "1d7909a5ac4db20b7d989a713ea2805f",
-    "url": "/React-portfolio/static/media/portfolio.1d7909a5.jpg"
+    "revision": "e0ddfc0f7211bbf89d3fd0ca6ba5c46c",
+    "url": "/React-portfolio/static/media/portfolio2.e0ddfc0f.jpg"
   },
   {
     "revision": "1863ff251b2ac405c439f7007b677a37",
