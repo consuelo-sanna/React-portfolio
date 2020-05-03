@@ -51,10 +51,10 @@ const CoverflowEffect = () => {
       <div>
         <PortfolioCard
           title={"This Portfolio"}
-          subtitle={"React"}
+          subtitle={"React application"}
           mediaContent={impPortfoliok}
           textContent={
-            "I know this is a static site and it was not necessary the use of React but it helped me learn more about it."
+            "Single Page Application built with React and Material-UI libraries. This application follows the mobile-first strategy to ensure the greatest user experience."
           }
           linkSite={"https://consuelo-sanna.github.io/React-portfolio"}
           linkCode={"https://github/consuelo-sanna/React-portfolio"}
@@ -65,7 +65,7 @@ const CoverflowEffect = () => {
           title={"To Do App"}
           subtitle={"MERN stack application"}
           textContent={
-            "This app use MongoDB, Express, React and Node and allows the authenticated user to use the CRUD functions and sockets. You can check both client and server rep."
+            "The MERN Stack combines MongoDB, Express, React and Node.js for back and front-end web development. This app allows the authenticated user to access the CRUD functions and sockets. Please check both client and server repository."
           }
           mediaContent={imgTodo}
           linkSite={"https://github.com/consuelo-sanna/my_todo"}
@@ -78,7 +78,7 @@ const CoverflowEffect = () => {
           subtitle={"Django application"}
           mediaContent={imgPortfolio}
           textContent={
-            "This app was entirely built with Django. The idea was to learn this framework and improve my Python, HTML & CSS skills."
+            "I’ve utilised my skills in Python and Bootstrap in order to build a fast and dynamic single page application. This app is currently deployed on Heroku cloud application platform."
           }
           linkSite={"http://consuelo.pythonanywhere.com"}
           linkCode={"https://github.com/consuelo-sanna/django-portfolio"}
@@ -91,7 +91,7 @@ const CoverflowEffect = () => {
           subtitle={"HTML, CSS & JS application"}
           mediaContent={imgBarbarART}
           textContent={
-            "This is a web site built with HTML, CSS & JavaScript. It is one of my first attempt and I still want to add some extra feature and pages."
+            "This web site was built with HTML, CSS & JavaScript. This is a brochure website that allows the artist to showcase its work and be contacted through it."
           }
           linkSite={"https://consuelo-sanna.github.io/test/index.html"}
           linkCode={"https://github.com/consuelo-sanna/test"}
@@ -100,10 +100,10 @@ const CoverflowEffect = () => {
       <div>
         <PortfolioCard
           title={"Neurospyt"}
-          subtitle={"Wordpress"}
+          subtitle={"Wordpress website"}
           mediaContent={imgNeurospyt}
           textContent={
-            "This is a web site built with the CMS Wordpress. I don't have the code in a repository, so both link go to the site."
+            "This is a web site built with the CMS Wordpress. The theme was custom made following the client preferencies and indications."
           }
           linkSite={"https://www.neurospyt.com/"}
           linkCode={"https://www.neurospyt.com/"}

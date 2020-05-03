@@ -27,9 +27,6 @@ function HomePage() {
             Consuelo Sanna, <br /> Software Engineer
           </Box>
         </Typography>
-        <Typography component="h5" variant="h5">
-          <Box>Hi. I'm an enthusiastic web developer.</Box>
-        </Typography>
       </div>
       <Box mt={2}>
         <ButtonContainer

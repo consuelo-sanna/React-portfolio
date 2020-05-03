@@ -42,12 +42,29 @@ function ProfilePage() {
     <Container component="main" maxWidth="md" className={classes.root}>
       <div className={classes.paper}>
         <Typography
-          component="h1"
-          variant="h3"
+          component="h2"
+          variant="h5"
           className={classes.textColorPurple}
         >
           <Box className={classes.customFont}>
-            Hello, <br />
+            About <br />
+          </Box>
+        </Typography>
+        <Typography component="h6" variant="h6">
+          <Box>
+            Dynamic and self-driven electrical engineer with an advanced
+            technical mindset,
+            <br />
+            strong business acumen and a Bachelor of Science in Electrical
+            Engineering.
+            <br />
+            In-depth knowledge of software engineering and programming
+            principles <br />
+            across multiple platforms.
+            <br />
+            Experienced in functional programming, developing, testing and
+            debugging code.
+            <br />
           </Box>
         </Typography>
         <Typography
@@ -56,39 +73,17 @@ function ProfilePage() {
           className={classes.textColorPurple}
         >
           <Box className={classes.customFont}>
-            is it me you're looking for? <br />
+            <br />
+            Experience
           </Box>
         </Typography>
         <Typography component="h6" variant="h6">
           <Box>
+            Spindox / Full-Stack Developer / January 2020 - Present
             <br />
-            I'm a Cagliari based Italian developer currently working at Spindox.{" "}
+            Freelance / Web Developer / January 2019 - June 2019
             <br />
-            I've also knowledge of Electric and Electronical Engineering..{" "}
-            <br />
-            New experiences and challenges are my thing.
-            <br />
-            If you have any cool projects or opportunities, get in touch!
-            <br />
-          </Box>
-        </Typography>
-        <Typography
-          component="h2"
-          variant="h5"
-          className={classes.textColorPurple}
-        >
-          <Box className={classes.customFont}>
-            <br />
-            Experiences
-          </Box>
-        </Typography>
-        <Typography component="h6" variant="h6">
-          <Box>
-            Spindox / Full-Stack Developer / GEN 2020 - NOW
-            <br />
-            Freelance / Web Developer / GEN 2019 - JUN 2019
-            <br />
-            Gruppo MutuiOnline / Internship Developer / JUL 2018 - OCT 2018
+            Gruppo MutuiOnline / Internship Developer / July 2018 - October 2018
             <br />
           </Box>
         </Typography>

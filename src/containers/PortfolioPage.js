@@ -29,7 +29,7 @@ function PortfolioPage() {
             classes.customFont
           } /* display="flex" justifyContent="center"*/
         >
-          Some of my Projects
+          Recent Projects
         </Box>
       </Typography>
       <SliderPortfolio />
