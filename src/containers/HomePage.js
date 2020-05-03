@@ -24,7 +24,7 @@ function HomePage() {
       <div className={classes.paper}>
         <Typography component="h3" variant="h3">
           <Box>
-            Consuelo Sanna, <br /> Software Engineer
+            Consuelo Sanna, <br /> Software Engineer.
           </Box>
         </Typography>
       </div>
