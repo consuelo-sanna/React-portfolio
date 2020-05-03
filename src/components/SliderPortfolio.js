@@ -4,7 +4,7 @@ import "swiper/css/swiper.css";
 import "./SliderPortfolio.css";
 
 import PortfolioCard from "./PortfolioCard";
-import imgPortfolio from "../static/images/portfolio.jpg";
+import imgPortfolio from "../static/images/portfolio2.jpg";
 import imgBarbarART from "../static/images/barbart.jpg";
 import impPortfoliok from "../static/images/portfoliok.jpg";
 import imgNeurospyt from "../static/images/neurospyt.jpg";
@@ -78,7 +78,7 @@ const CoverflowEffect = () => {
           subtitle={"Django application"}
           mediaContent={imgPortfolio}
           textContent={
-            "I’ve utilised my skills in Python and Bootstrap in order to build a fast and dynamic single page application. This app is currently deployed on Heroku cloud application platform."
+            "I’ve utilised my skills in Python and Bootstrap in order to build a fast and dynamic single page application. This app is currently deployed on PythonAnywhere cloud platform."
           }
           linkSite={"http://consuelo.pythonanywhere.com"}
           linkCode={"https://github.com/consuelo-sanna/django-portfolio"}
