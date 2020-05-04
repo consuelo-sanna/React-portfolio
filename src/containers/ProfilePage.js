@@ -52,13 +52,13 @@ function ProfilePage() {
         </Typography>
         <Typography component="h6" variant="h6">
           <Box>
-            Dynamic and self-driven electrical engineer with an advanced
-            technical mindset,
+            Dynamic and self-driven Software Engineer with an advanced technical
+            mindset,
             <br />
-            strong business acumen and a Bachelor of Science in Electrical
+            strong business acumen and a Bachelor of Science (BS) in Electrical
             Engineering.
             <br />
-            In-depth knowledge of software engineering and programming
+            In-depth knowledge of Software Engineering and programming
             principles <br />
             across multiple platforms.
             <br />
