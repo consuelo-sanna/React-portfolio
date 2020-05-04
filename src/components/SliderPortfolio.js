@@ -6,7 +6,7 @@ import "./SliderPortfolio.css";
 import PortfolioCard from "./PortfolioCard";
 import imgPortfolio from "../static/images/portfolio2.jpg";
 import imgBarbarART from "../static/images/barbart.jpg";
-import impPortfoliok from "../static/images/portfoliok.jpg";
+import impPortfoliok from "../static/images/portfoliok2.png";
 import imgNeurospyt from "../static/images/neurospyt.jpg";
 import imgTodo from "../static/images/todo.jpg";
 
@@ -65,7 +65,7 @@ const CoverflowEffect = () => {
           title={"To Do App"}
           subtitle={"MERN stack application"}
           textContent={
-            "The MERN Stack combines MongoDB, Express, React and Node.js for back and front-end web development. This app allows the authenticated user to access the CRUD functions and sockets. Please check both client and server repository."
+            "The MERN Stack combines MongoDB, Express, React and Node.js for back and front-end web development. This app allows the authenticated user to access the CRUD functions and sockets. Please check both client and server repositories."
           }
           mediaContent={imgTodo}
           linkSite={"https://github.com/consuelo-sanna/my_todo"}
@@ -78,7 +78,7 @@ const CoverflowEffect = () => {
           subtitle={"Django application"}
           mediaContent={imgPortfolio}
           textContent={
-            "I’ve utilised my skills in Python and Bootstrap in order to build a fast and dynamic single page application. This app is currently deployed on PythonAnywhere cloud platform."
+            "I’ve utilized my skills in Python and Bootstrap in order to build a fast and dynamic single page application. This app is currently deployed on PythonAnywhere cloud platform."
           }
           linkSite={"http://consuelo.pythonanywhere.com"}
           linkCode={"https://github.com/consuelo-sanna/django-portfolio"}
@@ -91,7 +91,7 @@ const CoverflowEffect = () => {
           subtitle={"HTML, CSS & JS application"}
           mediaContent={imgBarbarART}
           textContent={
-            "This web site was built with HTML, CSS & JavaScript. This is a brochure website that allows the artist to showcase its work and be contacted through it."
+            "This web site was built with HTML, CSS & JavaScript. This is a brochure website which allows the artist to showcase their work and to be contacted through it."
           }
           linkSite={"https://consuelo-sanna.github.io/test/index.html"}
           linkCode={"https://github.com/consuelo-sanna/test"}
@@ -103,7 +103,7 @@ const CoverflowEffect = () => {
           subtitle={"Wordpress website"}
           mediaContent={imgNeurospyt}
           textContent={
-            "This is a web site built with the CMS Wordpress. The theme was custom made following the client preferencies and indications."
+            "This site is built with the CMS Wordpress. The theme was custom made following client preferences and indications."
           }
           linkSite={"https://www.neurospyt.com/"}
           linkCode={"https://www.neurospyt.com/"}
