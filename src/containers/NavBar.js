@@ -6,7 +6,7 @@ import Menu from "@material-ui/core/Menu";
 import { menuList } from "../components/menuList";
 import Hidden from "@material-ui/core/Hidden";
 import imgLogoLong from "../static/images/Orocredo.png";
-import imgLogoShort from "../static/images/shortLogo.png";
+import imgLogoShort from "../static/images/imgLogoMinore.png";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     alignSelf: "flex-end",
     margin: "auto",
     marginLeft: 0,
+    marginBottom: 0,
   },
 }));
 
