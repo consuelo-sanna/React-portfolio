@@ -55,15 +55,16 @@ function ProfilePage() {
             Dynamic and self-driven Software Engineer with an advanced technical
             mindset,
             <br />
-            strong business acumen and a Bachelor of Science (BS) in Electrical
-            Engineering.
+            strong business acumen and a Bachelor of Science (B.S.) in
+            Electrical Engineering.
             <br />
             In-depth knowledge of Software Engineering and programming
             principles <br />
             across multiple platforms.
             <br />
-            Experienced in functional programming, developing, testing and
-            debugging code.
+            Experienced in the Agile software development life cycle, such us
+            Design, <br />
+            Development, Testing and Deployment.
             <br />
           </Box>
         </Typography>
@@ -79,12 +80,16 @@ function ProfilePage() {
         </Typography>
         <Typography component="h6" variant="h6">
           <Box>
-            Spindox / Full-Stack Developer / January 2020 - Present
-            <br />
-            Freelance / Web Developer / January 2019 - June 2019
-            <br />
-            Gruppo MutuiOnline / Internship Developer / July 2018 - October 2018
-            <br />
+            <ul>
+              <li>Spindox / Full-Stack Developer / January 2020 - Present</li>
+
+              <li>Freelance / Web Developer / January 2019 - June 2019</li>
+
+              <li>
+                Gruppo MutuiOnline / Internship Developer / July 2018 - October
+                2018
+              </li>
+            </ul>
           </Box>
         </Typography>
       </div>

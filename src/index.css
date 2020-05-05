@@ -37,27 +37,6 @@ span {
   }
 }
 
-/* funziona, ma sminchia anche in altre parti.. prova a vedere se riesci a sistemarlo da react
-*/
-@media (max-width: 390px) {
-  .MuiBox-root-52 {
-    font-size: 2.525rem;
-  }
-  .MuiBox-root-54 {
-    font-size: 1.525rem;
-  }
-  .MuiBox-root-60 {
-    font-size: 0.9rem;
-  }
-}
-@media (max-width: 334px) {
-  .MuiBox-root-52 {
-    font-size: 2rem;
-  }
-  .MuiBox-root-54 {
-    font-size: 0.9rem;
-  }
-}
 body {
   margin: 0;
   padding: 0;
@@ -67,4 +46,8 @@ body {
     rgba(9, 1, 14, 0.9290091036414566) 72%
   );
   color: #ffffff;
+}
+
+@-ms-viewport {
+  width: device-width;
 }

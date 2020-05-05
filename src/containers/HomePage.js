@@ -7,7 +7,7 @@ import Social from "../components/Social";
 import ButtonContainer from "../components/ButtonContainer";
 
 const useStyles = makeStyles((theme) => ({
-  root: { marginLeft: 0, marginTop: "20%", maxWidth: 470 },
+  root: { marginTop: "5%", maxWidth: 470 },
   paper: {
     marginTop: theme.spacing(2),
     display: "flex",
@@ -24,7 +24,7 @@ function HomePage() {
       <div className={classes.paper}>
         <Typography variant="h3">
           <Box>
-            <br /> Software Engineer
+            <br /> Software Engineer <br />
           </Box>
         </Typography>
 
@@ -38,6 +38,7 @@ function HomePage() {
           right={{ link: baseUrl + "/profile", title: "Profile" }}
         />
       </Box>
+      <br />
       <Box mt={2}>{Social()}</Box>
     </Container>
   );

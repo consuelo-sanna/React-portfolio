@@ -4,3 +4,40 @@
   height: 100%;
   z-index: -10;
 }
+
+/* jss are for the github pages
+*/
+@media (max-width: 390px) {
+  .MuiBox-root-52 {
+    font-size: 2.525rem;
+  }
+  .MuiBox-root-54 {
+    font-size: 1.525rem;
+  }
+  .MuiBox-root-60 {
+    font-size: 0.9rem;
+  }
+  .jss51 {
+    font-size: 2.525rem;
+  }
+  .jss52 {
+    font-size: 1.525rem;
+  }
+  .jss56 {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 334px) {
+  .MuiBox-root-52 {
+    font-size: 2rem;
+  }
+  .jss51 {
+    font-size: 2rem;
+  }
+  .MuiBox-root-54 {
+    font-size: 0.9rem;
+  }
+  .jss52 {
+    font-size: 0.9rem;
+  }
+}
