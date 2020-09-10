@@ -9,6 +9,7 @@ import imgBarbarART from "../static/images/barbart.jpg";
 import impPortfoliok from "../static/images/portfoliok2.png";
 import imgNeurospyt from "../static/images/neurospyt.jpg";
 import imgTodo from "../static/images/todo.jpg";
+import imgGql from "../static/images/gql.png";
 
 const CoverflowEffect = () => {
   const params = {
@@ -107,6 +108,18 @@ const CoverflowEffect = () => {
           }
           linkSite={"https://www.neurospyt.com/"}
           linkCode={"https://www.neurospyt.com/"}
+        />
+      </div>
+      <div>
+        <PortfolioCard
+          title={"RealTime Web App"}
+          subtitle={"MERN stack, Firebase and GraphQL"}
+          mediaContent={imgGql}
+          textContent={
+            "This realtime web app is built with the MERN Stack and uses graphQL for the API and Firebase for the authentication sistem. "
+          }
+          linkSite={"https://gql-mern-client.herokuapp.com/"}
+          linkCode={"https://github.com/consuelo-sanna/graphQL"}
         />
       </div>
     </Swiper>
